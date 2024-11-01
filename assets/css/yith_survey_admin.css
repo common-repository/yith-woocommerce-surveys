@@ -1,0 +1,103 @@
+
+.yith_survey_title{
+    width: 45%;
+}
+
+/*sortable list style */
+
+ul.suverys_answers{
+
+    width      : 600px;
+    background : #fff;
+    cursor     : move;
+}
+
+ul.suverys_answers li.surveys_answer{
+    width      : 100%;
+    padding    : 10px;
+    box-sizing : border-box;
+    border     : 1px solid #ccc;
+    margin     : 0;
+    margin-bottom: 5px;
+    background : #eee;
+    overflow   : hidden;
+}
+
+ul.suverys_answers li.surveys_answer .yith_survey_answer{
+    width: 200px!important;
+}
+
+ul.suverys_answers li.surveys_answer span.survey_answer_label{
+
+    padding-left: 20px;
+    padding-right: 100px;
+    font-weight: bold;
+}
+
+ul.suverys_answers li.surveys_answer span.survey_handle:before{
+    content: "\e032";
+    font-family: WooCommerce;
+    text-align: center;
+    line-height: 30px;
+    color: #ccc;
+    display: block;
+    width: 17px;
+    float: left;
+    height: 100%;
+}
+
+ul.suverys_answers li.surveys_answer .remove_answer{
+    float: right;
+    margin-right: 20px;
+}
+
+.surveys_error{
+
+    width : 600px;
+    border: 1px solid;
+    font-size: 13px;
+    height: 52px;
+    line-height: 52px;
+    border-color: #aa2400;
+    background: #ffe9e5;
+    margin-bottom: 20px;
+}
+
+.surveys_error .surveys_icon.dashicons.dashicons-no{
+
+    line-height: 52px;
+    color: #aa2400;
+    font-size: 28px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/**SURVEY ORDER METABOX*/
+
+ul.suverys_answers{
+
+    font-size: 100%;
+}
+ul.survey_answer_contents li.survey_name{
+
+    font-weight: bold;
+    padding-left: 20px;
+}
+ul.survey_answer_contents li.survey_name:before {
+    font-family: WooCommerce;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    content: '\e018';
+}
+ul.survey_answer_contents li.answer_name{
+
+    padding-left: 20px;
+    font-size: 90%;
+}
